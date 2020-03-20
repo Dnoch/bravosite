@@ -64,6 +64,14 @@ return [
             'url' => env('AWS_URL'),
         ],
 
+        'sftp' => [
+            'driver' => 'sftp',
+            'host' => env('FTP_HOST'),
+            'username' => env ('FTP_USERNAME'),
+            'password' => env ('FTP_PASSWORD'),
+            'port' => 22
+        ]
+
     ],
 
     /*
